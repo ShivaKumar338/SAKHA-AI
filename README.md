@@ -27,4 +27,5 @@ The backend is powered by **Google Generative AI (Gemini)** through the `google-
 - Deploying on cloud platforms (Heroku, Render, or GCP)  
 - Extending the chatbot to handle tasks like summarization, Q&A, or automation  
 
+I have uploded my code file  named as chat_app_flash.py.
 This project demonstrates how **Flask + Gemini AI** can be used to create an interactive AI assistant that runs locally and can be deployed anywhere.
