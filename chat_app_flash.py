@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyA_vZmwsnJ7T2MGAorTh5handgtaEl0oss")  # replace with your real key
+genai.configure(api_key="You_API_KEY")  # replace with your real key
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(history=[])
 
@@ -53,3 +53,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+
